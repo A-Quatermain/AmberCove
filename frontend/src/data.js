@@ -1,8 +1,8 @@
 // ── Amber Cove content + curated imagery ──
 
 export const IMAGES = {
-  hero: "https://images.unsplash.com/photo-1767950470198-c9cd97f8ed87?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBtb2Rlcm4lMjB2aWxsYSUyMHBvb2wlMjBwYXRpbyUyMHR3aWxpZ2h0JTIwd2FybXxlbnwwfHx8fDE3ODU5MTA2MDR8MA&ixlib=rb-4.1.0&q=85&w=2400",
-  about: "https://images.unsplash.com/photo-1775733923991-e7223f9f44bc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBvdXRkb29yJTIwa2l0Y2hlbiUyMG1vZGVybiUyMHBhdGlvfGVufDB8fHx8MTc4NTg5ODUxMnww&ixlib=rb-4.1.0&q=85&w=1400",
+  hero: "https://images.unsplash.com/photo-1712262825804-54f74e7caa7a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzJ8MHwxfHNlYXJjaHwzfHxGbG9yaWRhJTIwbW9kZXJuJTIwbHV4dXJ5JTIwaG9tZSUyMHBhbG0lMjB0cmVlcyUyMHBvb2wlMjBkdXNrfGVufDB8fHx8MTc4NTk2NjUxNnww&ixlib=rb-4.1.0&q=85&w=2400",
+  about: "https://static.prod-images.emergentagent.com/jobs/b6bb5ae1-27a8-40ba-a0bc-5a655cf526cd/images/46d19d0aebb0361103f6570ab88eafe9a5d0979b52eb89902e77fac98fc8dce1.jpeg",
 };
 
 export const SERVICES = [
@@ -12,7 +12,7 @@ export const SERVICES = [
     description:
       "Fully bespoke kitchens crafted with natural stone, stainless steel, and hand-selected tile — designed for South Florida's year-round outdoor lifestyle.",
     image:
-      "https://images.unsplash.com/photo-1762117360868-d4e757073d45?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTF8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBvdXRkb29yJTIwa2l0Y2hlbnxlbnwwfHx8fDE3ODU4OTg0MzR8MA&ixlib=rb-4.1.0&q=85&w=1200",
+      "https://static.prod-images.emergentagent.com/jobs/b6bb5ae1-27a8-40ba-a0bc-5a655cf526cd/images/4357caf1d1a4cb1529f58bd7193700733d9d3ccbf32b49fd4634f089c5d8e06c.jpeg",
   },
   {
     num: "02",
@@ -20,7 +20,7 @@ export const SERVICES = [
     description:
       "Architectural shade solutions from modern aluminum louvers to reclaimed timber, engineered to withstand coastal conditions while defining elegant outdoor rooms.",
     image:
-      "https://images.unsplash.com/photo-1766087752966-b9a7b058b7da?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDJ8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBwZXJnb2xhJTIwcGF0aW98ZW58MHx8fHwxNzg1ODk4NDM0fDA&ixlib=rb-4.1.0&q=85&w=1200",
+      "https://static.prod-images.emergentagent.com/jobs/b6bb5ae1-27a8-40ba-a0bc-5a655cf526cd/images/b57f66ef9bc910c89c05aa0570a61a4136506caccc1f7a1d8fa9989e98922acf.jpeg",
   },
   {
     num: "03",
@@ -28,7 +28,7 @@ export const SERVICES = [
     description:
       "Complete outdoor environments merging native subtropical plantings with premium pavers, natural stone, and custom-milled surfaces for timeless curb appeal.",
     image:
-      "https://images.unsplash.com/photo-1768700519431-5297f11808a3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2ODl8MHwxfHNlYXJjaHwzfHxlbGVnYW50JTIwaGFyZHNjYXBlJTIwc3RvbmUlMjBwYXRpbyUyMGxhbmRzY2FwZXxlbnwwfHx8fDE3ODU4OTg1MTJ8MA&ixlib=rb-4.1.0&q=85&w=1200",
+      "https://images.unsplash.com/photo-1766603636766-1f4662469448?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzF8MHwxfHNlYXJjaHwxfHx0cm9waWNhbCUyMHBlcmdvbGElMjBwYWxtJTIwYmFja3lhcmQlMjBtb2Rlcm58ZW58MHx8fHwxNzg1OTY2NTE2fDA&ixlib=rb-4.1.0&q=85&w=1200",
   },
   {
     num: "04",
@@ -36,7 +36,7 @@ export const SERVICES = [
     description:
       "Seamless integration of commercial-grade grills, refrigeration, beverage stations, and cabinetry into cohesive, architect-specified installations.",
     image:
-      "https://images.unsplash.com/photo-1783125126725-d91c486fe6a3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBvdXRkb29yJTIwa2l0Y2hlbiUyMG1vZGVybiUyMHBhdGlvfGVufDB8fHx8MTc4NTg5ODUxMnww&ixlib=rb-4.1.0&q=85&w=1200",
+      "https://static.prod-images.emergentagent.com/jobs/b6bb5ae1-27a8-40ba-a0bc-5a655cf526cd/images/2bbd7816606be0662d1a99e77f8b8001a80755bdd5a1d87b633d1000ef027455.jpeg",
   },
   {
     num: "05",
@@ -44,7 +44,7 @@ export const SERVICES = [
     description:
       "Multi-layered illumination — ambient, task, and accent — using marine-grade LED fixtures for dramatic evening atmospheres and enhanced security.",
     image:
-      "https://images.unsplash.com/photo-1764419737670-5e63f20c5493?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODd8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBwb29sJTIwbGlnaHRpbmd8ZW58MHx8fHwxNzg1ODk4NDM0fDA&ixlib=rb-4.1.0&q=85&w=1200",
+      "https://static.prod-images.emergentagent.com/jobs/b6bb5ae1-27a8-40ba-a0bc-5a655cf526cd/images/333e47861c948421d2e22c28175832a73a4da25e2b2ee9fee803476f1b190f74.jpeg",
   },
   {
     num: "06",
@@ -52,14 +52,14 @@ export const SERVICES = [
     description:
       "Statement fire features, custom water walls, fountains, and built-in seating sculpted from natural materials to create gathering spaces that captivate.",
     image:
-      "https://images.unsplash.com/photo-1782914550645-bfe5e5e54bff?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjd8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBwb29sJTIwZmlyZSUyMHBpdCUyMHBhdGlvJTIwZHVza3xlbnwwfHx8fDE3ODU4OTg1MTJ8MA&ixlib=rb-4.1.0&q=85&w=1200",
+      "https://static.prod-images.emergentagent.com/jobs/b6bb5ae1-27a8-40ba-a0bc-5a655cf526cd/images/4029a9eacacea9a9f892b3d414957b0c23b7029448cde7645c0e5eea559f8b26.jpeg",
   },
 ];
 
 export const PORTFOLIO = [
   {
     image:
-      "https://images.unsplash.com/photo-1762811054950-b74e0a055c80?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBwb29sJTIwZmlyZSUyMHBpdCUyMHBhdGlvJTIwZHVza3xlbnwwfHx8fDE3ODU4OTg1MTJ8MA&ixlib=rb-4.1.0&q=85&w=1600",
+      "https://images.unsplash.com/photo-1766603636517-ac8e3c9faa44?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzF8MHwxfHNlYXJjaHwyfHx0cm9waWNhbCUyMHBlcmdvbGElMjBwYWxtJTIwYmFja3lhcmQlMjBtb2Rlcm58ZW58MHx8fHwxNzg1OTY2NTE2fDA&ixlib=rb-4.1.0&q=85&w=1600",
     title: "The Meridian Estate",
     location: "Boca Raton, FL",
     category: "Outdoor Kitchen & Lounge",
@@ -74,7 +74,7 @@ export const PORTFOLIO = [
   },
   {
     image:
-      "https://images.unsplash.com/photo-1778439916499-9d11193169e9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA0MTJ8MHwxfHNlYXJjaHw0fHxvdXRkb29yJTIwZmlyZSUyMHBpdCUyMHBhdGlvfGVufDB8fHx8MTc4NTg5ODQzNHww&ixlib=rb-4.1.0&q=85&w=1000",
+      "https://static.prod-images.emergentagent.com/jobs/b6bb5ae1-27a8-40ba-a0bc-5a655cf526cd/images/9872f508cf23e0f715c2a0985e12ca1e38be597f7d5007081e9fa80b650e6cee.jpeg",
     title: "Coral Ridge Retreat",
     location: "Wellington, FL",
     category: "Fire Pit & Water Feature",
@@ -88,7 +88,7 @@ export const PORTFOLIO = [
   },
   {
     image:
-      "https://images.unsplash.com/photo-1602860739945-9a61573cd62d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBvdXRkb29yJTIwa2l0Y2hlbiUyMG1vZGVybiUyMHBhdGlvfGVufDB8fHx8MTc4NTg5ODUxMnww&ixlib=rb-4.1.0&q=85&w=1600",
+      "https://images.unsplash.com/photo-1783125127094-ea962d41ba42?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzF8MHwxfHNlYXJjaHwzfHx0cm9waWNhbCUyMHBlcmdvbGElMjBwYWxtJTIwYmFja3lhcmQlMjBtb2Rlcm58ZW58MHx8fHwxNzg1OTY2NTE2fDA&ixlib=rb-4.1.0&q=85&w=1600",
     title: "The Wellington Project",
     location: "Wellington, FL",
     category: "Landscape Design",
