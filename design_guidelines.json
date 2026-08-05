@@ -1,0 +1,158 @@
+{
+  "theme": "dark",
+  "archetype": "LUXURY",
+  "typography": {
+    "fonts": {
+      "heading": "Cormorant Garamond, serif",
+      "body": "DM Sans, sans-serif",
+      "mono": "JetBrains Mono, monospace"
+    },
+    "hierarchy": {
+      "h1": "text-5xl md:text-7xl lg:text-[7rem] leading-[0.9] tracking-tighter font-light",
+      "h2": "text-4xl md:text-5xl lg:text-6xl leading-tight tracking-tight font-light",
+      "h3": "text-2xl md:text-3xl leading-snug font-normal",
+      "h4": "text-xl md:text-2xl leading-snug font-normal",
+      "body": "text-base md:text-lg leading-relaxed font-light text-neutral-300",
+      "overline": "text-xs md:text-sm uppercase tracking-[0.2em] font-medium text-amber-500"
+    },
+    "rules": [
+      "Headlines MUST use tight letter spacing (tracking-tighter) and light weights for an editorial feel.",
+      "Overlines MUST be uppercase and widely spaced.",
+      "Use text-balance for headings to prevent orphans."
+    ]
+  },
+  "colors": {
+    "palette": {
+      "background": {
+        "primary": "#0A0A0A",
+        "secondary": "#141414",
+        "tertiary": "#1C1C1C"
+      },
+      "brand": {
+        "amber": "#C8963E",
+        "amberHover": "#E0AE52",
+        "amberMuted": "rgba(200, 150, 62, 0.15)"
+      },
+      "text": {
+        "primary": "#FFFFFF",
+        "secondary": "#A1A1AA",
+        "muted": "#71717A"
+      },
+      "border": {
+        "subtle": "rgba(255, 255, 255, 0.08)",
+        "accent": "rgba(200, 150, 62, 0.3)"
+      }
+    },
+    "rules": [
+      "No pure black (#000000); use deep charcoal (#0A0A0A).",
+      "Accent color (#C8963E) should be used sparingly for high-impact moments (CTAs, hover lines, active states).",
+      "Avoid large flat gradient backgrounds. Rely on solid dark tones with subtle noise/grain."
+    ]
+  },
+  "layout_and_spacing": {
+    "spacing_scale": "Generous spacing. Use py-24 or py-32 for section padding. Gap-12 or gap-16 between structural elements.",
+    "grids": [
+      "Use highly asymmetrical grids for the portfolio. Mix tall, wide, and square ratios.",
+      "For Services, use a structured 2x3 or 3x2 grid with 1px subtle borders (border-collapse style) to look like a high-end catalog."
+    ],
+    "surfaces": [
+      "Glassmorphism (Crystal): Only for the sticky navigation. backdrop-blur-xl bg-black/50 border-b border-white/10.",
+      "Cards: Flat solid #141414 with 1px border-white/5. Hover adds an amber border-bottom or subtle amber glow."
+    ]
+  },
+  "components": {
+    "navigation": "Fixed to top. backdrop-blur-xl bg-[#0A0A0A]/70. Must have active section tracking (amber dot or line under active link). Logo left, links center, CTA right.",
+    "hero": "Cinematic full-screen height (100vh). Subtle parallax background image. Large kinetic headline with masked line-by-line reveal. Two CTAs (Primary solid amber, Secondary outline white).",
+    "about_manifesto": "Numbered chapters (01, 02, 03) acting as scroll-triggers. Includes a floating accent card for philosophy, overlapping the main grid. Inline stats embedded in text.",
+    "services": "6 Interactive cards (Outdoor Kitchens, Pergolas, Hardscape, BBQs, Lighting, Fire/Water). Hover state reveals an image background or amber accent.",
+    "stats_divider": "Animated counters triggered on viewport entry. Minimalist typography.",
+    "portfolio_grid": "Oversized thumbnails. Hover reveals category and location (Boca, Delray, Wellington, Aventura) via an overlay or sliding text. Images clipped nicely.",
+    "process": "4-step horizontal or vertical timeline (Discovery \u2192 Design \u2192 Build \u2192 Reveal). Interactive line drawing path.",
+    "testimonials": "Carousel with minimalist quote design. Includes Homeowner, Architect, Real Estate Agent.",
+    "marquee": "Slow editorial marquee for Service Areas. Font-serif, large outline or pale text.",
+    "contact": "Form with Shadcn select/inputs. Dark inputs with amber focus rings.",
+    "footer": "Large brand logo at bottom. Links organized clearly. Instagram social link."
+  },
+  "motion_and_interaction": {
+    "libraries": [
+      "framer-motion",
+      "lenis"
+    ],
+    "rules": [
+      "Use Lenis for smooth momentum scrolling.",
+      "Hero: Line-by-line masked text reveal on load using framer-motion (y: 100%, opacity: 0 -> y: 0, opacity: 1, overflow: hidden).",
+      "Scroll reveals: Fade up and subtle translation (y: 40px) for all major sections.",
+      "Micro-interactions: Hover on portfolio images should subtly scale image (scale 1.05) inside an overflow-hidden container.",
+      "Parallax: Subtle y-axis translation on the hero image background."
+    ]
+  },
+  "media": {
+    "rules": [
+      "Images should be treated deliberately. Add subtle overlays (bg-black/30) so text remains readable.",
+      "Images should feel like high-end editorial photography."
+    ],
+    "images": [
+      {
+        "category": "Hero / Mansion Exterior",
+        "url": "https://images.unsplash.com/photo-1758612853656-def5033bccb5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzl8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBtb2Rlcm4lMjBtYW5zaW9uJTIwZXh0ZXJpb3IlMjBuaWdodHxlbnwwfHx8fDE3ODU4OTg0NDZ8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Cinematic modern house illuminated at night. Use as Parallax hero background."
+      },
+      {
+        "category": "Services - Outdoor Kitchen",
+        "url": "https://images.unsplash.com/photo-1762117360868-d4e757073d45?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTF8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBvdXRkb29yJTIwa2l0Y2hlbnxlbnwwfHx8fDE3ODU4OTg0MzR8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Modern outdoor kitchen with bar."
+      },
+      {
+        "category": "Services - Pergolas",
+        "url": "https://images.unsplash.com/photo-1766087752966-b9a7b058b7da?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDJ8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBwZXJnb2xhJTIwcGF0aW98ZW58MHx8fHwxNzg1ODk4NDM0fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Modern pergola with adjustable louvers."
+      },
+      {
+        "category": "Services - Lighting / Pool",
+        "url": "https://images.unsplash.com/photo-1764419737670-5e63f20c5493?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODd8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBwb29sJTIwbGlnaHRpbmd8ZW58MHx8fHwxNzg1ODk4NDM0fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Illuminated pool."
+      },
+      {
+        "category": "Services - Fire Pit",
+        "url": "https://images.unsplash.com/photo-1778439916499-9d11193169e9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA0MTJ8MHwxfHNlYXJjaHw0fHxvdXRkb29yJTIwZmlyZSUyMHBpdCUyMHBhdGlvfGVufDB8fHx8MTc4NTg5ODQzNHww&ixlib=rb-4.1.0&q=85",
+        "description": "Round fire pit."
+      },
+      {
+        "category": "Portfolio - Florida Sunset",
+        "url": "https://images.unsplash.com/photo-1623424455593-da762bf80815?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxNzV8MHwxfHNlYXJjaHwyfHxmbG9yaWRhJTIwcGFsbSUyMHRyZWVzJTIwc3Vuc2V0fGVufDB8fHx8MTc4NTg5ODQzNHww&ixlib=rb-4.1.0&q=85",
+        "description": "Palm tree silhouetted against sunset."
+      },
+      {
+        "category": "Portfolio - Patio",
+        "url": "https://images.unsplash.com/photo-1783125126717-e9c855c86a63?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTF8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBvdXRkb29yJTIwa2l0Y2hlbnxlbnwwfHx8fDE3ODU4OTg0MzR8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Modern outdoor patio with pool."
+      },
+      {
+        "category": "Testimonial - Architect",
+        "url": "https://images.unsplash.com/photo-1544225917-1bf66feace19?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MDV8MHwxfHNlYXJjaHwyfHxhcmNoaXRlY3QlMjBwb3J0cmFpdHxlbnwwfHx8fDE3ODU4OTg0MzR8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Man wearing black blazer."
+      },
+      {
+        "category": "Testimonial - Homeowner",
+        "url": "https://images.unsplash.com/photo-1615464670798-6e92fafa2a89?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTN8MHwxfHNlYXJjaHwyfHxoYXBweSUyMHdvbWFuJTIwcG9ydHJhaXQlMjBvdXRkb29yfGVufDB8fHx8MTc4NTg5ODQ0Nnww&ixlib=rb-4.1.0&q=85",
+        "description": "Woman smiling outdoor."
+      },
+      {
+        "category": "Testimonial - Real Estate Agent",
+        "url": "https://images.unsplash.com/photo-1581065178047-8ee15951ede6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTJ8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjByZWFsJTIwZXN0YXRlJTIwYWdlbnQlMjBwb3J0cmFpdHxlbnwwfHx8fDE3ODU4OTg0NDZ8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Woman in black blazer smiling."
+      }
+    ]
+  },
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "You MUST install required icon libraries (@phosphor-icons/react or lucide-react) and framer-motion, @studio-freight/react-lenis.",
+    "Do not use generic centered layouts or flat gradients. Use high contrast, asymmetrical bento grids, and solid dark backgrounds with 1px subtle borders.",
+    "Text MUST be readable. Ensure contrast against dark backgrounds. Use #C8963E solely for accents and interactive states.",
+    "All interactive elements MUST have micro-animations (hover states, focus rings).",
+    "All interactive and key informational elements MUST include a `data-testid` attribute (e.g., data-testid='hero-cta-button').",
+    "Do NOT use pure #000000. Use deep charcoal like #0A0A0A or #121212.",
+    "Header MUST NOT have a pure transparent background. It must have a backdrop-blur and semi-transparent solid color so text is readable over the hero image.",
+    "Use standard semantic HTML tags (nav, section, main, footer) correctly.",
+    "Implement a smooth momentum scroll wrapper using Lenis."
+  ]
+}
