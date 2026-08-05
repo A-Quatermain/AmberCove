@@ -16,10 +16,10 @@ export const Reveal = ({ children, delay = 0, y = 44, className = "", once = tru
 
 // Masked line-by-line reveal for hero headlines
 export const MaskLine = ({ children, index = 0, className = "" }) => (
-  <span className="block overflow-hidden">
+  <span className="block overflow-hidden pb-[0.12em]">
     <motion.span
       className={`block ${className}`}
-      initial={{ y: "115%" }}
+      initial={{ y: "118%" }}
       animate={{ y: 0 }}
       transition={{ duration: 1.05, delay: 0.35 + index * 0.13, ease: EASE }}
     >

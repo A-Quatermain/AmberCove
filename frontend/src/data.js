@@ -1,7 +1,7 @@
 // ── Amber Cove content + curated imagery ──
 
 export const IMAGES = {
-  hero: "https://images.unsplash.com/photo-1758612853656-def5033bccb5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzl8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBtb2Rlcm4lMjBtYW5zaW9uJTIwZXh0ZXJpb3IlMjBuaWdodHxlbnwwfHx8fDE3ODU4OTg0NDZ8MA&ixlib=rb-4.1.0&q=85&w=2400",
+  hero: "https://images.unsplash.com/photo-1767950470198-c9cd97f8ed87?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBtb2Rlcm4lMjB2aWxsYSUyMHBvb2wlMjBwYXRpbyUyMHR3aWxpZ2h0JTIwd2FybXxlbnwwfHx8fDE3ODU5MTA2MDR8MA&ixlib=rb-4.1.0&q=85&w=2400",
   about: "https://images.unsplash.com/photo-1775733923991-e7223f9f44bc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBvdXRkb29yJTIwa2l0Y2hlbiUyMG1vZGVybiUyMHBhdGlvfGVufDB8fHx8MTc4NTg5ODUxMnww&ixlib=rb-4.1.0&q=85&w=1400",
 };
 

@@ -29,11 +29,13 @@ export const Hero = ({ scrollTo }) => {
         />
       </motion.div>
 
+      {/* Left-to-right scrim keeps the headline crisp; bottom scrim anchors CTAs */}
+      <div className="absolute inset-0 bg-gradient-to-r from-[#0A0A0A] via-[#0A0A0A]/70 to-[#0A0A0A]/25" />
       <motion.div
         style={{ opacity: overlayOpacity }}
-        className="absolute inset-0 bg-gradient-to-b from-[#0A0A0A]/70 via-[#0A0A0A]/40 to-[#0A0A0A]"
+        className="absolute inset-0 bg-gradient-to-t from-[#0A0A0A] via-[#0A0A0A]/20 to-[#0A0A0A]/40"
       />
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_30%,rgba(200,150,62,0.14),transparent_55%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_75%_25%,rgba(200,150,62,0.16),transparent_50%)]" />
 
       {/* Framing lines */}
       <div className="absolute inset-x-6 md:inset-x-10 top-28 bottom-10 border-x border-white/10 pointer-events-none" />
@@ -51,9 +53,10 @@ export const Hero = ({ scrollTo }) => {
           </span>
         </motion.div>
 
-        <h1 className="font-serif font-light text-[#F5F0E8] text-[3.2rem] leading-[0.95] sm:text-6xl md:text-7xl lg:text-[7.5rem] lg:leading-[0.92] tracking-tight max-w-[15ch]">
-          <MaskLine index={0}>Where Architecture</MaskLine>
-          <MaskLine index={1} className="italic text-[#C8963E]">
+        <h1 className="font-serif font-light text-[#F5F0E8] text-[3.4rem] leading-[0.92] sm:text-7xl md:text-[6rem] lg:text-[7.5rem] lg:leading-[0.9] tracking-tight drop-shadow-[0_2px_30px_rgba(0,0,0,0.5)]">
+          <MaskLine index={0}>Where</MaskLine>
+          <MaskLine index={1}>Architecture</MaskLine>
+          <MaskLine index={2} className="italic text-[#C8963E] pb-2">
             Meets the Open Air
           </MaskLine>
         </h1>
